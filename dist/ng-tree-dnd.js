@@ -2174,7 +2174,7 @@
                                     _len,
                                     _tree_nodes = [];
                                 if (angular.isDefined(oData)) {
-                                    if (!angular.isArray(oData) || oData.length === 0) {
+                                    if (!angular.isArray(oData)) {
                                         return [];
                                     } else {
                                         _data = oData;
